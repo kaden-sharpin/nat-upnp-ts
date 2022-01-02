@@ -1,0 +1,24 @@
+{
+  "name": "nat-upnp-ts",
+  "version": "2.0.0",
+  "main": "build/src/index",
+  "author": "Fedor Indutny <fedor@indutny.com>, SimplyLinn <https://github.com/SimplyLinn>, Kaden Sharpin <http://github.com/kaden-sharpin>",
+  "homepage": "https://github.com/kaden-sharpin/nat-upnp-ts",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/kaden-sharpin/nat-upnp-ts.git"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.6",
+    "typescript": "^4.5.4"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "test": "node ./build/test/index.test.js"
+  },
+  "dependencies": {
+    "axios": "^0.24.0",
+    "fast-xml-parser": "^4.0.0-beta.8"
+  }
+}

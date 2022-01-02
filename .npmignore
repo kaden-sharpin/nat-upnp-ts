@@ -1,0 +1,6 @@
+.gitignore
+.jscsrc
+src/
+test/
+build/test/
+tsconfig.json
