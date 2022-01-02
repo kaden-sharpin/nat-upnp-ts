@@ -5,6 +5,8 @@ Port mapping via UPnP APIs
 ## Installation
 
 ```bash
+npm i nat-upnp-ts
+OR
 npm i git+https://github.com/kaden-sharpin/nat-upnp-ts.git
 ```
 
